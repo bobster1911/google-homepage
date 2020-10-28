@@ -1,0 +1,102 @@
+/* main */
+
+html {
+
+}
+
+header {
+    
+}
+
+main {
+    
+}
+
+footer {
+    background: lightyellow;
+}
+
+p {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+ul {
+
+}
+
+ol {
+
+}
+
+/* Utilities  */
+
+.nav-bar {
+    background: lightgreen;
+}
+
+.main-pages {
+    
+    
+}
+
+.pages {
+    padding: 5px;
+    display: block;
+    margin: 3px;
+}
+
+.pages-left {
+    float: left;
+}
+
+.pages-right {
+    float: right;
+}
+
+.main-section {
+    padding: 20% 0 20% 0;
+}
+
+.logo-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.google-logo {
+    width: 272px;
+}
+
+.search-front {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+}
+
+.search-field {
+    border-radius: 10px;
+    border-color: lightgrey;
+    width: 100%;
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 0 0 0;
+    margin: auto;
+}
+
+.form-front {
+    width: 30%;
+}
+
+/* Sitewide */
+

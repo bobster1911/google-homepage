@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link href="css/reset.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+
+        
+        <nav class="main-nav" id="main-nav">
+            <ul class="main-pages">
+                <li class="about pages pages-left">About</li>
+                <li class="store pages pages-left">Store</li>
+                <li class="gmail pages pages-right">Gmail</li>
+                <li class="images pages pages-right">Images</li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <main class="main-section">
+
+        <div class="logo-main">
+            <img src="images/google-logo.png" alt="Google logo" class="google-logo">
+        </div>
+
+            <!-- Here it took me a while to figure out why my forms weren't centering properly.
+                 Basically, the width of the form needs to be set, otherwise it will have a default and 
+                will override anything you attempt to set for the inputs within said form. This seemed to be
+            for the search field only. -->
+
+            <div class="search-front">
+                <form class="form-front">
+                    <input type="text" name="search" placeholder="Search.." class="search-field">
+                </form>
+            </div>
+
+            <div class="search-buttons">
+                <form class="form-buttons">
+                    <input type="button" value="Google Search" class="google-search">
+                    <input type="button" value="Feeling Lucky" class="feeling-lucky">
+                </form>
+            </div>
+
+       
+    </main>
+    <footer>
+        <div class="nav-bar">
+            <ul>
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search Works</li>
+            </ul>
+            <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+    </footer>
+</html>
